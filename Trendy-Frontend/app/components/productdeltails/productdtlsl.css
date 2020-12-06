@@ -1,0 +1,93 @@
+/* .productDelImage{
+    width:330px;
+    margin-top: 10px;
+   
+} */
+.productImageContainer{
+    margin-top:10px;
+    /* border: 1px solid black; */
+}
+
+/* .productDelImage:hover {
+   
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  } */
+  figure {
+    width: 300px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+   }
+   figure:hover+span {
+    bottom: -36px;
+    opacity: 1;
+   }
+   
+   .hover04 figure img {
+    width: 400px;
+    height: auto;
+    -webkit-transition: .4s ease-in-out;
+    transition: .3s ease-in-out;
+   }
+   .hover04 figure:hover img {
+    width: 300px;
+   }
+.productDelContainer{
+    margin-top: 70px;
+    
+   
+}
+
+.productdes{
+    color: rgb(14, 10, 12);
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnsizes{
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px !important;
+    
+}
+.producttitle{
+    color:rgb(231, 9, 146) ;
+   
+}
+.productdesprice{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.productImageCol{
+    margin-top: 30px;
+}
+.spanprice{
+  
+    color: rgb(231, 9, 146);
+}
+.spanrate{
+    text-decoration:line-through;
+    margin-left: 8px;
+    /* color: orangered; */
+}
+.productsizespan{
+    margin-top: 30px;
+}
+.cartdiv{
+    margin-top: 80px;
+}
+.taxes{
+    font-size: 16px;
+}
+.cartbtn{
+    width: 200px;
+    height: 50px;
+    border: rgb(253, 6, 150)!important;
+    background-color: rgb(253, 6, 150) !important;
+}
+.cartorder{
+    margin-left: 18px;
+}

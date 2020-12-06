@@ -1,0 +1,55 @@
+.total{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* background-color: rgb(82, 16, 236); */
+    
+}
+/* .cards{
+    border: 1px;
+    margin-left: 243px;
+    margin-right: 326px;
+} */
+.reg-title{
+    font-size: 29px;
+    margin-top: 15px;
+    margin-left: 35px;
+    color: #f4f4f8;
+}
+.reg-title2{
+    font-size: 12px;
+    margin-left: 100px;
+}
+.eprofile{
+  color: white;
+}
+.b1{
+    margin-right: 20px;
+    background-color: white !important;
+    color: black  !important;
+}
+
+#cs1{
+    /* margin-top: 20px; */
+width:500px;
+margin-left: 300px;
+background-color: black;
+}
+#git1{
+    width: 85%;
+    margin-left: 83px;
+}
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-control{
+    border: none;
+  
+}
+.signcard{
+    width: 300px;
+    color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

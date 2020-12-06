@@ -1,0 +1,28 @@
+.jumbotron-fluid {
+    margin-top: 40px;
+ }
+ .list-unstyled li a{
+   color:#696B79;
+   text-decoration: none;
+ }
+ .list-unstyled li{
+   color:#696B79;
+ }
+ .play{
+     height: 42px;
+ }
+ .ios{
+     height: 42px;
+ }
+ .icon{
+   height:20px;
+   width: 30px;
+ }
+ .footlogo{
+   margin-top: 30px;
+   margin-left: 10px;
+   max-width: 200px;
+ }
+ /* .footsize{
+   height: 200px;
+ } */

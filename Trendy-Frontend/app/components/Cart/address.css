@@ -1,0 +1,31 @@
+.faddress{
+    border: 1px solid black;
+    width: 230px;
+    height: 200px;
+}
+.plusicon{
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+.add1del{
+    display: none;
+}
+.Addcardh{
+    border: none;
+    margin-left: 15px;
+    margin-right:30px ;
+    border-bottom: 2px solid rgb(247, 244, 244);
+}
+.s1{
+    display: none;
+}
+.getadds{
+    display: none;
+}
+.add1{
+    margin-left: 5px;
+    font-size: 12px;
+    /* border: 1px solid black; */
+    width:250px;
+}

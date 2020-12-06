@@ -1,0 +1,20 @@
+.total{
+    background-color: #FEEDF6;
+}
+
+.loginform{
+    color: white;
+}
+.ltitle{
+    color: white !important;
+}
+.lbutton{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+/* .btn btn-lg btn-primary btn-block{
+    background-color:#FF527B;
+    background-color: #FF527B;
+    border: 0px;
+} */
