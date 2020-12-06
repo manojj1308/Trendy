@@ -37,17 +37,6 @@ const Address = require('../models/address');
           }).catch(err=>res.json(err)) 
      }
  }
-
-// // get address 
-// const getDAddress = (req,res) =>{
-//     console.log(req.body.user)
-//     let id = req.body.user;
-//      User.find({_id:id}).then(docs=>{
-//         res.status(200).json(docs)
-//      }
-//      ).catch(err=>res.status(404).json(err))
-//  }
-
 // get address 
  const getAddress = (req,res) =>{
     console.log(req.body.user)

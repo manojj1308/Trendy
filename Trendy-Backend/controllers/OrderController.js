@@ -55,10 +55,4 @@ if(userId!='' || userId!="undefined" ){
             res.status(401).json({error:err});
         })
  }
-module.exports.deletemany=(req,res)=>{
-//     .then(data=>{
-//         Cart.deleteMany({user:userId}).then(data=>{
-//             res.status(200).json({message:"cart deleted",data:data})
-//         }).catch(err=>res.json(err))
-//     })        
-}
+

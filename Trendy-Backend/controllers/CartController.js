@@ -1,5 +1,4 @@
 const CartPages=require('../models/cart')
-// const isEmpty = require('lodash.isempty');
 exports.CartPage= (req,res)=>{
 console.log(req.body)
  var token=req.body
@@ -17,7 +16,6 @@ console.log(req.body)
         product_id:req.body.ProductCode,
         Size:req.body.Size
     }  
-    // console.log(cartdata.product_id)
     if(req.body != {}){
     CartPages.create(cartdata)
    .then(doc =>{

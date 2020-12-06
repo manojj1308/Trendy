@@ -1,11 +1,7 @@
 const cart=require('../models/cart')
-const jwt=require("jsonwebtoken");
 process.env.SECRET_KEY ='secret'
 module.exports.getcart=(req,res)=>{
 console.log( req.body.user)
-// var user=req.body.token
-// var userid=user._id
-// var user=req.body.decoded
 cart.find({Userid:req.body.user})
 .populate('product_id')
 .then(data =>{
